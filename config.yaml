@@ -1,0 +1,19 @@
+epochs: 7
+save_step: 2
+batch_size: 32
+
+
+train_path: /content/drive/MyDrive/MSC/DeepLearning/HW4/Q1/data/Train-word-proc.csv
+valid_path: /content/drive/MyDrive/MSC/DeepLearning/HW4/Q1/data/Valid-word-proc.csv
+test_path : /content/drive/MyDrive/MSC/DeepLearning/HW4/Q1/data/Test-word-proc.csv
+
+
+model: BertWithNNClassifier
+part: 1
+layer: -1
+bert: HooshvareLab/bert-base-parsbert-uncased # bert-base-multilingual-cased
+
+model_pth: parsbert_relu1.pth
+
+section: 1
+
